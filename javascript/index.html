@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Calculadora</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<div class="calculadora">
+    <div class="panel">
+
+        <input id="n1" readonly>
+        <input id="op" readonly>
+        <input id="n2" readonly>
+        <span>=</span>
+        <input id="res" readonly>
+
+    </div>
+    <div class="botones">
+
+        <button onclick="numero('7')">7</button>
+        <button onclick="numero('8')">8</button>
+        <button onclick="numero('9')">9</button>
+        <button onclick="operador('/')">÷</button>
+
+        <button onclick="numero('4')">4</button>
+        <button onclick="numero('5')">5</button>
+        <button onclick="numero('6')">6</button>
+        <button onclick="operador('*')">×</button>
+
+        <button onclick="numero('1')">1</button>
+        <button onclick="numero('2')">2</button>
+        <button onclick="numero('3')">3</button>
+        <button onclick="operador('-')">-</button>
+
+        <button onclick="numero('0')">0</button>
+        <button onclick="borrar()">C</button>
+        <button onclick="calcular()">=</button>
+        <button onclick="operador('+')">+</button>
+
+    </div>
+
+</div>
+
+<script src="basico.js"></script>
+
+</body>
+</html>
